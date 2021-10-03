@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Com.TestLayer.ContactPageTest">
+        <methods>
+          <include name="validateMiddleName"/>
+          <include name="validateLoginFunctionality"/>
+          <include name="validateCreateButton"/>
+          <include name="validateHomePageTitle"/>
+          <include name="validateDp"/>
+          <include name="validateHomePageLogo"/>
+          <include name="validateFirstName"/>
+          <include name="validatepublicAccess"/>
+          <include name="setUp"/>
+          <include name="validateSaveButton"/>
+          <include name="valideLastName"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.TestLayer.ContactPageTest -->
+      <class name="Com.TestLayer.HomePageTest">
+        <methods>
+          <include name="validateContactLink"/>
+          <include name="validateDealsLink"/>
+          <include name="validateHomePageTitle"/>
+          <include name="validateHomeUrl"/>
+          <include name="validateLoginPage"/>
+          <include name="setUp"/>
+          <include name="validateCompanies"/>
+          <include name="tearDown"/>
+          <include name="validateHomePageLogo"/>
+          <include name="validateLoggedUsername"/>
+        </methods>
+      </class> <!-- Com.TestLayer.HomePageTest -->
+      <class name="Com.TestLayer.LoginPageTest">
+        <methods>
+          <include name="validateLoginFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.TestLayer.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

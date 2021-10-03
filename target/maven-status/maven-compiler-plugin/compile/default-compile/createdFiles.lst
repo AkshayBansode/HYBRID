@@ -1,0 +1,9 @@
+Com\BaseLayer\BaseClass.class
+Com\PageLayer\LoginPage.class
+Com\UtilsLayer\ActionsClassMethods.class
+Com\UtilsLayer\UtilsClass.class
+Com\UtilsLayer\JSMethods.class
+Com\UtilsLayer\ExcelReader.class
+Com\UtilsLayer\WebEventListener.class
+Com\PageLayer\ContactPage.class
+Com\PageLayer\HomePage.class

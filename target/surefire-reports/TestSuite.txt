@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 3, Errors: 0, Skipped: 22, Time elapsed: 1.126 sec <<< FAILURE!
+setUp(Com.TestLayer.ContactPageTest)  Time elapsed: 0.756 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at java.base/java.util.Properties.put(Properties.java:1334)
+	at java.base/java.util.Properties.setProperty(Properties.java:229)
+	at java.base/java.lang.System.setProperty(System.java:915)
+	at Com.BaseLayer.BaseClass.initilization(BaseClass.java:38)
+	at Com.TestLayer.ContactPageTest.setUp(ContactPageTest.java:21)
+
+setUp(Com.TestLayer.HomePageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at java.base/java.util.Properties.put(Properties.java:1334)
+	at java.base/java.util.Properties.setProperty(Properties.java:229)
+	at java.base/java.lang.System.setProperty(System.java:915)
+	at Com.BaseLayer.BaseClass.initilization(BaseClass.java:38)
+	at Com.TestLayer.HomePageTest.setUp(HomePageTest.java:17)
+
+setUp(Com.TestLayer.LoginPageTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at java.base/java.util.Properties.put(Properties.java:1334)
+	at java.base/java.util.Properties.setProperty(Properties.java:229)
+	at java.base/java.lang.System.setProperty(System.java:915)
+	at Com.BaseLayer.BaseClass.initilization(BaseClass.java:38)
+	at Com.TestLayer.LoginPageTest.setUp(LoginPageTest.java:15)
+

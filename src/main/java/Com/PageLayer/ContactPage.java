@@ -35,7 +35,6 @@ public class ContactPage extends BaseClass{
 	@FindBy(xpath="//button[@class='ui linkedin button']")
 	WebElement saveButton;
 	
-	
 	public ContactPage() {
 		PageFactory.initElements(driver, this);
 	}

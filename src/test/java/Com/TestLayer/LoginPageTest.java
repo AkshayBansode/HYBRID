@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 import Com.BaseLayer.BaseClass;
 import Com.PageLayer.LoginPage;
+import Com.UtilsLayer.JSMethods;
+import Com.UtilsLayer.UtilsClass;
 
 public class LoginPageTest extends BaseClass{
 	LoginPage loginpage;
@@ -16,12 +18,19 @@ public class LoginPageTest extends BaseClass{
 	}
 	
 	@Test
-	public void validateLoginFunctionality() {
+	public void validateLoginFunctionality() throws InterruptedException {
 		loginpage=new LoginPage();
-		loginpage.typeUsername("praf002@gmail.com");
-		loginpage.typePassword("Pr@ful0812");
+		loginpage.typeUsername(prop.getProperty("username"));
+		loginpage.typePassword(prop.getProperty("password"));
 		
 		loginpage.clickOnLoginButton();
+		Thread.sleep(5000);
+		JSMethods.alertPop();
+		
+		Thread.sleep(5000);
+		
+		UtilsClass.clickonOkButtonInAlertPop();
+		
 	}
 	
 	@AfterClass

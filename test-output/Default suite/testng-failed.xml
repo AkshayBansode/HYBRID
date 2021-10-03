@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.TestLayer.ContactPageTest">
+      <class name="Com.TestLayer.LoginPageTest">
         <methods>
-          <include name="validateMiddleName"/>
-          <include name="validateCreateButton"/>
-          <include name="validateDp"/>
-          <include name="validateHomePageLogo"/>
-          <include name="validateFirstName"/>
-          <include name="validatepublicAccess"/>
-          <include name="setUp"/>
-          <include name="validateSaveButton"/>
-          <include name="valideLastName"/>
+          <include name="validateLoginFunctionality"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Com.TestLayer.ContactPageTest -->
+      </class> <!-- Com.TestLayer.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
